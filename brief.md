@@ -44,4 +44,10 @@ Resource: NTIA - Minimum Elements for a Software Bill of Materials (SBOM) - http
 
 ## Misconception in My Track
 
+A common misconception in cybersecurity is that installing a security patch on one system automatically removes a vulnerability from an entire organisation. In reality, vulnerable software may exist in multiple applications, servers, containers, or third-party dependencies. For Log4Shell, security teams must identify affected assets, update vulnerable Log4j components to fixed versions, and verify that remediation is complete. They should also follow relevant vendor and government guidance. CISA's Apache Log4j Vulnerability Guidance explains mitigation actions, showing why vulnerability management requires identification and verification rather than assuming one update protects every system.
+
+Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+
 ## Open Question
+
+How can organisations reliably identify every application and third-party dependency affected by a newly discovered vulnerability such as Log4Shell when their software inventories are incomplete or outdated?
