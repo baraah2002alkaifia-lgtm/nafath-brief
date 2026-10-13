@@ -26,9 +26,21 @@ Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
 ## Networking
 
+BGP (Border Gateway Protocol) allows networks to exchange information about internet routes. In a BGP route hijacking attack, an organisation or attacker announces incorrect routing information, which may redirect traffic through an unintended network or make services unreachable. Resource Public Key Infrastructure (RPKI) helps validate whether an autonomous system is authorised to originate a particular IP address prefix. However, RPKI does not encrypt traffic or prevent every routing attack, so it must be combined with other network security measures.
+
+Resource: RIPE NCC - Resource Public Key Infrastructure (RPKI) - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/ 
+
 ## Cybersecurity
 
+Log4Shell is a critical vulnerability identified as CVE-2021-44228 in Apache Log4j, a widely used Java logging library. Under vulnerable configurations, an attacker could exploit specially crafted input to trigger remote code execution, potentially gaining control over an affected system. Its widespread use made identifying vulnerable applications and dependencies particularly important. Organisations should follow vendor guidance, update affected Log4j versions to fixed releases, and verify that vulnerable components are no longer present or exposed.
+
+Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+
 ## Data
+
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships within a product. It helps organisations identify dependencies and assess which systems may be affected when a vulnerability is discovered. The NTIA identifies minimum elements including supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. Maintaining an accurate SBOM improves transparency and supports vulnerability response, but it does not by itself guarantee that software is secure.
+
+Resource: NTIA - Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
